@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.topmenu{
+    max-width: auto;
+    height: 75px;
+    background-color: #012544;
+   
+}
+.menu{
+    max-width: 1000px;
+    height: 70px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: auto;
+    
+}
+
+.logoh1{
+    width: 150px;
+    height: 50px;
+    text-align:left;
+    margin: 10px;
+    
+}
+
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    
+    
+}
+.menu ul li {
+padding-left: 30px;
+padding-right: 30px;
+}
+.menu ul li a{
+    color:#fff;
+    font-size: 1.5em;
+}
+
+.menu ul li a:hover{
+    color:rgb(17, 180, 245);
+    font-size: 1.5em;
+}
+
+/********************************* *****************************/
+.page{
+    max-width: 1000px;
+    
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 30px;
+}
+.lef-side-bar{
+    width: 300px;
+    height: 700px;
+    background-color: whitesmoke;
+    position: relative;
+    margin-bottom: 100px;
+}
+.photo{
+    width: 300px;
+    height: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+.photo img{
+    max-width: 70%;
+    height: auto;
+    border-radius: 100%;
+    align-items: center;
+  }
+
+  .myinfo h1{
+    font-family:monospace;
+    color: #444BFF;
+    margin: 20px;
+    text-align: center;
+  }
+
+  .myinfo .infoyazi{
+    font-family:monospace;
+    color: #444BFF;
+    margin: 20px;
+    font-size: large;
+    letter-spacing: 1px;
+    font-weight: bold;
+  }
+  .social{
+     
+      position: absolute;
+      bottom: 0px;
+      
+  }
+   .social ul{
+    list-style-type: none;
+    display: flex;
+    margin:auto;
+    justify-content: center;
+    
+   
+    
+  }
+
+  .social ul li{
+    padding: 10px 30px;
+    font-size: 40px;
+    
+  }
+
+/******************** *****************/
+
+.cizgi{
+    border-bottom: 3px solid #febf5e;
+    width: 600px;
+    margin: auto;
+
+  }
+  /******************** *****************/
+  .main-page{
+      width: 670px;
+      height: 700px;
+      background-color: whitesmoke;
+      padding-left: 10px;
+      
+  }
+
+  .main-page h1{
+      color: #444BFF;
+      padding-top: 15px;
+      font-family: 'Courier New', Courier, monospace;
+  }
+
+  .main-page .blog{
+      width: auto;
+      height: 180px;
+      background:#f8e6ca;
+      border-radius: 10px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+            
+  }
+  .main-page .blog .blog-baslik{
+    width: 600px;
+    height: auto;
+    font-size: 1.3rem;
+    padding: 10px;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    color: #444BFF;
+        
+  }
+ 
+  .main-page .blog .blog-baslik a{
+    color: #444BFF;
+    }
+
+    .main-page .blog .blog-baslik a:hover{
+        color:#054f91;
+    }
+  
+  .main-page .blog-img img{
+      width: 100px;
+      height: 100px;
+      border: 1px solid #444BFF;
+      border-radius: 10px;
+      box-shadow: 1.5px 1.5px   #444BFF;
+      margin: 10px;
+  }
+
+  .main-page .blog-yazi{
+      width: auto;
+      height: 80px;
+      border: 1px solid #444BFF;
+      border-radius: 10px;
+      box-shadow: 1.5px 1.5px  #444BFF;
+      overflow: hidden;
+      padding: 10px;
+      margin: 10px;
+      font-family:monospace;
+  }
+.main-page .konu{
+    width: auto;
+    height: 110px;
+    display: flex;
+      
+}
+  
+.footer{
+    max-width: auto;
+    height: 75px;
+    background-color: #012544;
+    
+    text-align: right;
+    
+}
+.footer h2{
+    color: white;
+    padding-top:20px;
+    padding-right: 30px;
+    font-weight: 100;
+}
+
+
+   
+
+
